@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" charset="utf-8"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body onload="draw();">
+    <div id="game">
+      <div class="score">
+        <span>Score: </span><span id="scorePoint"> 0</span>
+      </div>
+      <div class="container" id="ContainerModal">
+        <div class="whiteBoard">
+          <h1 class="bigNumber" id="scoreNum">0</h1>
+          <p>Points</p>
+          <div>
+            <button class="button" id="startGameBtn">Start Game</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="fireball"></div>
+      <canvas class="canvas"></canvas>
+      <div id="character"></div>
+    </div>
+  </body>
+</html>
