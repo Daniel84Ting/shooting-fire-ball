@@ -4,26 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="./app.js" charset="utf-8"></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap"
       rel="stylesheet"
     />
+
     <title>Document</title>
   </head>
-  <body onload="draw();">
+  <body>
     <div id="game">
       <div class="score">
         <span>Score: </span><span id="scorePoint"> 0</span>
       </div>
       <div class="container" id="ContainerModal">
         <div class="whiteBoard">
+          <h2 class="joker">Jokes :</h2>
+          <h2 id="jokes"></h2>
+
           <h1 class="bigNumber" id="scoreNum">0</h1>
           <p>Points</p>
           <div>
             <button class="button" id="startGameBtn">Start Game</button>
           </div>
+          <h3 class="punchline">Punchline :</h3>
+          <h3 id="punchline"></h3>
         </div>
       </div>
 
@@ -31,5 +37,9 @@
       <canvas class="canvas"></canvas>
       <div id="character"></div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="./app.js" charset="utf-8"></script>
   </body>
 </html>

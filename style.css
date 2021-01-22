@@ -1,71 +1,66 @@
 #game {
-    background-image: url('http://jamie-cross.net/wp-content/uploads/2020/02/Background-01-Daytime.gif');
-    width: 1300px;
-    height: 750px;
-    margin: 0;
-  /*   position: relative; */
+  background-image: url('http://jamie-cross.net/wp-content/uploads/2020/02/Background-01-Daytime.gif');
+  width: 1300px;
+  height: 750px;
+  margin: 0;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  padding: 5%;
+  user-select: none;
+  font-size: xx-large;
+  font-family: 'Freckle Face', cursive;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 30%;
+  border-radius: 60px;
+  font-family: 'Freckle Face', cursive;
+}
+.button {
+  background-color: aqua;
+  border-radius: 50px;
+  border: solid aqua;
+  font-size: x-large;
+  padding: 20px;
+  font-family: 'Freckle Face', cursive;
+}
+.button:hover {
+  background-color: blue;
+  border: solid blue;
+  color: aliceblue;
+  font-family: 'Freckle Face', cursive;
+}
+#character {
+  content: url('https://i.pinimg.com/originals/d7/b3/da/d7b3da3d4b19b7f0c44673374158df0a.gif');
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -220px;
+  left: 410px;
+}
+
+.animate {
+  animation: jump 500ms;
+}
+@keyframes jump {
+  0% {
+    top: 300px;
   }
-  /* canvas {
-    position: relative;
-  } */
-  
-  .score {
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-    padding: 5%;
-    user-select: none;
-    font-size: xx-large;
-    font-family: 'Freckle Face', cursive;
+  30% {
+    top: 200px;
   }
-  .container {
-    background-color: rgba(255, 255, 255, 0.5);
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 5%;
-    margin-bottom: 30%;
-    border-radius: 60px;
-    font-family: 'Freckle Face', cursive;
+  70% {
+    top: 200px;
   }
-  .button {
-    background-color: aqua;
-    border-radius: 50px;
-    border: solid aqua;
-    font-size: x-large;
-    padding: 20px;
-    font-family: 'Freckle Face', cursive;
+  100% {
+    top: 300px;
   }
-  .button:hover {
-    background-color: blue;
-    border: solid blue;
-    color: aliceblue;
-    font-family: 'Freckle Face', cursive;
-  }
-  #character {
-    content: url('https://i.pinimg.com/originals/d7/b3/da/d7b3da3d4b19b7f0c44673374158df0a.gif');
-    width: 150px;
-    height: 150px;
-    position: relative;
-    top: -220px;
-    left: 410px;
-  }
-  
-  .animate {
-    animation: jump 500ms;
-  }
-  @keyframes jump {
-    0% {
-      top: 300px;
-    }
-    30% {
-      top: 200px;
-    }
-    70% {
-      top: 200px;
-    }
-    100% {
-      top: 300px;
-    }
-  }
-  
+}
