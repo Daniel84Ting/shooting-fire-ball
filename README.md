@@ -18,13 +18,13 @@ https://official-joke-api.appspot.com/jokes/random
 - Running Man shoot the fireball to gain the score, when the bullet hit the fireball will get 100 point. shooting the fireball in diferent angle by using mouse clicking. If the fireball hit the running man will Game Over and will show how much score you get.
 
 ## screenshots picture
-![](screenshot1.png)
+![](Image/screenshot1.png)
 1. Press start button to start the Game.
 
-![](screenshot2.png)
+![](Image/screenshot2.png)
 1. The Running man shooting the fireball. 
 
-![](screenshot3.png)
+![](Image/screenshot3.png)
 1. When Game Over will show the total score point and the random Jokes.
 
 ## Additional Features were under Considerations
