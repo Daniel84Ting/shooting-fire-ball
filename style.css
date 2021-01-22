@@ -1,5 +1,5 @@
 #game {
-  background-image: url('http://jamie-cross.net/wp-content/uploads/2020/02/Background-01-Daytime.gif');
+  background-image: url('/Image/Background-01-Daytime.gif');
   width: 1300px;
   height: 750px;
   margin: 0;
@@ -39,7 +39,7 @@
   font-family: 'Freckle Face', cursive;
 }
 #character {
-  content: url('https://i.pinimg.com/originals/d7/b3/da/d7b3da3d4b19b7f0c44673374158df0a.gif');
+  content: url('/Image/running\ man.gif');
   width: 150px;
   height: 150px;
   position: relative;
